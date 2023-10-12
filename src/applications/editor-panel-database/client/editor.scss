@@ -1,0 +1,69 @@
+.dragblock-inspector-controls.database .properties.queries {
+	font-family:monospace;
+	margin-top:20px
+}
+.dragblock-inspector-controls.database .properties.queries .query {
+	color:#666
+}
+.dragblock-inspector-controls.database .properties.queries .query .keyword {
+	color:#2047c9;
+	font-weight:700
+}
+.dragblock-inspector-controls.database .properties.queries .query a.title {
+	color:#000;
+	font-weight:700
+}
+.dragblock-inspector-controls.database .properties.queries .query a.title:hover {
+	text-decoration:underline
+}
+.dragblock-inspector-controls.database .properties.queries .query a.title:hover .keyword {
+	color:#194efc
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params {
+	border-left:1px solid #ddd;
+	padding-left:10px
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params a.param {
+	color:#333;
+	display:block;
+	font-size:.95em;
+	opacity:.9;
+	transition-delay:0ms;
+	transition-duration:.1s;
+	transition-property:transform
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params a.param:hover {
+	opacity:1;
+	transform:scale(1.05)
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params a.param:hover .keyword {
+	color:#194efc
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params a.param .value.array {
+	border-left:1px solid #ddd;
+	display:block;
+	padding-left:10px
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params a.param .value.array .object {
+	display:block;
+	font-size:.95em
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params .dragblock-autocomplete-search-box button.fake-search-button {
+	border:none;
+	box-shadow:none!important;
+	color:#2047c9;
+	font-size:.95em;
+	font-weight:700;
+	height:auto;
+	opacity:.9;
+	padding:0;
+	transition-delay:0ms;
+	transition-duration:.1s;
+	transition-property:transform
+}
+.dragblock-inspector-controls.database .properties.queries .query .query-params .dragblock-autocomplete-search-box button.fake-search-button:hover {
+	opacity:1;
+	text-decoration:underline;
+	transform:scale(1.05)
+}
+

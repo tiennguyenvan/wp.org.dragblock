@@ -1,0 +1,420 @@
+.dragblock-richtext-icon-inserter-results .dragblock-icon {
+	cursor:pointer;
+	opacity:.9
+}
+.dragblock-richtext-icon-inserter-results .dragblock-icon:hover {
+	opacity:1;
+	transform:scale(1.1)
+}
+.dragblock-richtext-icon-inserter-results .dragblock-icon:hover svg {
+	fill:currentColor
+}
+.dragblock-richtext-icon-inserter-results .dragblock-icon svg {
+	width:24px
+}
+.dragblock-inspector-controls.appearance .global-action {
+	-moz-column-gap:6px;
+	column-gap:6px;
+	display:inline-flex;
+	font-size:12.5px;
+	margin:15px 15px 0 0;
+	transition-delay:0;
+	transition-duration:100;
+	transition-property:transform
+}
+.dragblock-inspector-controls.appearance .global-action:hover {
+	transform:scale(1.1)
+}
+.dragblock-inspector-controls.appearance .global-action svg {
+	width:1.2em
+}
+.dragblock-inspector-controls.appearance .properties {
+	margin-top:20px
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector>a {
+	transition-delay:0;
+	transition-duration:100;
+	transition-property:transform
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector>a:hover {
+	transform:scale(1.1)
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector a.master-selector-name {
+	color:#3c31cb;
+	font-size:.9em;
+	font-weight:700;
+	position:relative
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector a.master-selector-name .devices {
+	background-color:#6fb456;
+	border-radius:2px;
+	color:#fff;
+	font-size:.9em;
+	margin-right:2px;
+	padding:0 3px
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector a.master-selector-name .selectors strong {
+	background:#e6e4f5;
+	border-radius:100%;
+	display:inline-block;
+	font-size:.75em;
+	font-weight:900;
+	line-height:1.1em;
+	padding:2px 4px;
+	position:relative;
+	top:-1px
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector a.master-selector-add {
+	border:1px solid;
+	border-radius:4px;
+	color:#000;
+	display:none;
+	height:1.15em;
+	line-height:.6em;
+	margin-left:5px;
+	padding:2px
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper .master-selector:hover a.master-selector-add {
+	display:inline-block
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property {
+	cursor:pointer;
+	display:inline-block;
+	font-family:monospace;
+	font-size:.96em;
+	letter-spacing:-.3px;
+	line-height:1.7em;
+	transition-delay:0;
+	transition-duration:100;
+	transition-property:transform
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.has-selector {
+	border-left:1px solid hsla(0,0%,60%,.6);
+	padding-left:10px
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property:hover {
+	transform:scale(1.1)
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property:hover>code {
+	color:red
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.default>span {
+	opacity:.3
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.default:hover>span {
+	opacity:1
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.disabled {
+	opacity:.5;
+	text-decoration:line-through
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.disabled:hover,.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.hidden {
+	opacity:.7
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.hidden:hover {
+	opacity:1
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.inClipboardCut {
+	opacity:.5
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property.inClipboardCut:hover {
+	opacity:1
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property>code {
+	background:none;
+	color:#c80000;
+	font-size:inherit;
+	margin-right:5px;
+	padding:0
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property>code strong {
+	font-size:.8em
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property>span {
+	color:#000
+}
+.dragblock-inspector-controls.appearance .properties .property-wrapper a.property .value-preview .color {
+	border:1px solid;
+	display:inline-block;
+	height:.8em;
+	margin:0 4px 0 0;
+	position:relative;
+	top:.07em;
+	width:.8em
+}
+.dragblock-appearance-control-popover .components-popover__content .value {
+	margin-bottom:20px
+}
+.dragblock-appearance-control-popover .components-popover__content .extra {
+	align-items:center;
+	justify-content:stretch;
+	margin:0 0 10px
+}
+.dragblock-appearance-control-popover .components-popover__content .extra .label {
+	font-size:.65em;
+	font-weight:700;
+	opacity:.8;
+	text-transform:uppercase;
+	width:55px;
+	width:18%
+}
+.dragblock-appearance-control-popover .components-popover__content .extra .control {
+	width:82%
+}
+.dragblock-appearance-control-popover .components-popover__content .extra a.extra-item {
+	background:#f0f0f0;
+	border:1px solid #ddd;
+	color:#666;
+	cursor:pointer;
+	display:inline-block;
+	font-size:.66em;
+	letter-spacing:.5px;
+	line-height:1.76em;
+	padding:0 2.5px;
+	position:relative;
+	text-align:center
+}
+.dragblock-appearance-control-popover .components-popover__content .extra a.extra-item:hover {
+	background-color:#dec6f3;
+	border-color:#ccc;
+	color:#000
+}
+.dragblock-appearance-control-popover .components-popover__content .extra a.extra-item.active {
+	background:#c093eb;
+	color:#fff
+}
+.dragblock-appearance-control-popover .components-popover__content .extra a.extra-item.active svg {
+	fill:#fff
+}
+.dragblock-appearance-control-popover .components-popover__content .extra a.extra-item svg {
+	fill:currentColor;
+	display:inline;
+	vertical-align:text-bottom;
+	width:1.2em
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.devices a.extra-item {
+	font-size:1.1em
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.devices a.extra-item:hover {
+	background:#c5e4ba
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.devices a.extra-item.active {
+	background:#6fb456
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.selectors a.state-item:hover {
+	background:#c093eb;
+	color:#fff
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.selectors a.state-item.active {
+	background:#732fb3
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.selectors .components-base-control__field {
+	margin:0
+}
+.dragblock-appearance-control-popover .components-popover__content .extra.selectors .components-base-control__field .components-text-control__input {
+	min-height:0;
+	padding:2px
+}
+.dragblock-toolbar-text-icon {
+	font-size:1.4em;
+	font-weight:500;
+	position:relative;
+	top:-1px
+}
+.dragblock-toolbar-popover-grid-content .section label {
+	display:block;
+	font-size:10px;
+	font-weight:700;
+	letter-spacing:.5px;
+	margin-top:15px;
+	text-transform:uppercase
+}
+.dragblock-toolbar-popover-grid-content .section.d label {
+	margin-top:0
+}
+.dragblock-toolbar-popover-grid-content .section .options {
+	border:1px solid rgba(0,0,0,.2);
+	border-radius:4px;
+	display:flex
+}
+.dragblock-toolbar-popover-grid-content .section .options a {
+	align-content:center;
+	align-items:center;
+	border-radius:4px;
+	color:#000;
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	padding:5px
+}
+.dragblock-toolbar-popover-grid-content .section .options a:hover {
+	background:#b5e2ff;
+	color:#0693e3
+}
+.dragblock-toolbar-popover-grid-content .section .options a.active {
+	background:#000;
+	color:#fff
+}
+.dragblock-toolbar-popover-grid-content .section .options a span {
+	display:block
+}
+.dragblock-toolbar-popover-grid-content .section .options a.number span {
+	display:block;
+	text-align:center;
+	width:2em
+}
+.dragblock-toolbar-popover-grid-content .section .options .left {
+	align-items:normal;
+	border-right:1px solid rgba(0,0,0,.2);
+	display:grid;
+	grid-template-columns:1fr;
+	padding:5px;
+	row-gap:5px
+}
+.dragblock-toolbar-popover-grid-content .section .options .left a {
+	align-content:center;
+	background-color:rgba(0,0,0,.067);
+	display:flex;
+	justify-content:center
+}
+.dragblock-toolbar-popover-grid-content .section .options .left a.active {
+	background:rgba(0,0,0,.8)
+}
+.dragblock-toolbar-popover-grid-content .section .options .right {
+	align-items:normal;
+	display:grid;
+	grid-template-columns:1fr;
+	padding:5px;
+	row-gap:5px
+}
+.dragblock-toolbar-popover-grid-content .section .options .right .line {
+	-moz-column-gap:5px;
+	column-gap:5px;
+	display:grid;
+	grid-template-columns:repeat(6,1fr)
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area {
+	display:grid;
+	grid-auto-flow:column
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section {
+	margin-left:15px
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section.d {
+	margin-left:0
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section label {
+	margin:0
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section .right {
+	display:grid;
+	justify-content:center;
+	width:100%
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section .right a.cell {
+	background:rgba(0,0,0,.133);
+	border:1px solid rgba(0,0,0,.267);
+	border-radius:0;
+	height:10px;
+	margin:0;
+	opacity:.8;
+	width:10px
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section .right a:hover {
+	background:#b5e2ff;
+	opacity:1
+}
+.dragblock-toolbar-popover-grid-content.grid-item-area .section .right a.active {
+	background:#0693e3;
+	border-color:#8ed1fc
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .items a {
+	background-color:transparent;
+	border:1px solid rgba(0,0,0,.133);
+	border-radius:4px;
+	color:rgba(0,0,0,.4);
+	display:inline-block;
+	font-size:10px;
+	font-weight:700;
+	line-height:1em;
+	margin-bottom:5px;
+	margin-right:5px;
+	padding:3px
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .items a:hover {
+	background-color:rgba(48,159,233,.561);
+	border-color:rgba(0,0,0,.6);
+	color:rgba(0,0,0,.667)
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .items a.selected {
+	background-color:rgba(48,159,233,.686);
+	border-color:#000;
+	color:#000
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections {
+	display:grid;
+	grid-auto-flow:column
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section {
+	margin-left:15px
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section.d {
+	margin-left:0
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section label {
+	margin:0
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .blocks {
+	display:grid;
+	gap:2px;
+	grid-column:1/-1;
+	grid-row:1/-1;
+	grid-template-rows:repeat(6,20px)
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .blocks a {
+	align-content:center;
+	background-color:transparent;
+	border:1px solid transparent;
+	border-radius:0;
+	color:transparent;
+	display:flex;
+	font-size:13px;
+	font-weight:700;
+	justify-content:center;
+	margin:0;
+	text-align:center
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .blocks a:hover {
+	background-color:rgba(48,159,233,.561);
+	border-color:rgba(0,0,0,.6);
+	color:rgba(0,0,0,.667)
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .blocks a.active {
+	background-color:rgba(48,159,233,.498);
+	border-color:rgba(0,0,0,.4);
+	color:rgba(0,0,0,.6)
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .blocks a.active.selected {
+	background-color:rgba(48,159,233,.686);
+	border-color:#000;
+	color:#000
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .mask {
+	display:grid;
+	gap:2px;
+	grid-column:1/-1;
+	grid-row:1/-1
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .mask a {
+	background:transparent;
+	border:1px solid rgba(0,0,0,.133);
+	border-radius:0;
+	height:20px;
+	margin:0;
+	opacity:.8;
+	width:20px
+}
+.dragblock-toolbar-popover-grid-content.grid-layout .sections .section .right .mask a:hover {
+	background-color:rgba(48,159,233,.498)
+}
+

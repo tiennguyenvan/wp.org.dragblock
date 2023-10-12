@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dragblock/option",
+	"version": "0.1.0",
+	"title": "Option",
+	"category": "dragblock-form",
+	"icon": "excerpt-view",
+	"description": "Insert an option for a select field",
+	"keywords": ["select", "option"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "dragblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes":  {		
+		"dragBlockText": {
+			"type" : "array",
+			"default": ""
+		}
+	}	
+}

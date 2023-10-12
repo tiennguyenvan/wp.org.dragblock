@@ -1,0 +1,23 @@
+{
+    "browserDevice": {
+        "ruleSets": [
+            {
+                "enable": true,
+                "rules": [
+                    {
+                        "field": "browserType",
+                        "value": [
+                            "firefox"
+                        ]
+                    },
+                    {
+                        "field": "deviceType",
+                        "value": [
+                            "robot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

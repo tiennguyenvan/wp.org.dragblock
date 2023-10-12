@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dragblock/form",
+	"version": "0.1.0",
+	"title": "Form",
+	"category": "dragblock-form",
+	"icon": "index-card",
+	"description": "Insert a form processor",
+	"keywords": ["form", "contact", "message"],
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		
+	},
+	"providesContext": {
+		"dragblockParentStyles" : "dragBlockStyles"
+	},
+	"textdomain": "dragblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"	
+}

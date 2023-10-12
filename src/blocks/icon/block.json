@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dragblock/icon",
+	"icon": "star-empty",
+	"title": "Icon",	
+	"category": "dragblock-basic",		
+	"description": "Insert an SVG icon or graphic.",
+	"keywords": [ "icon", "svg" ],
+	"attributes": {		
+		"icon": {
+			"type": "html",
+			"default": "",
+			"source": "html",
+			"selector": "span"
+		}
+	},
+	
+	"textdomain": "dragblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

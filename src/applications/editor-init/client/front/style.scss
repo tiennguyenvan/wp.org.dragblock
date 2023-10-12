@@ -1,0 +1,46 @@
+button,input,select,textarea {
+	font-family:inherit
+}
+button,input[type=button],input[type=submit] {
+	cursor:pointer
+}
+.wp-block-site-title a {
+	cursor:pointer;
+	font-family:inherit
+}
+[class*=wp-block] {
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	animation-duration:.2s;
+	box-sizing:border-box;
+	overflow-wrap:break-word;
+	position:relative;
+	text-rendering:optimizeLegibility;
+	transition:all 80ms ease-out;
+	word-break:break-word
+}
+.wp-block-dragblock-icon,.wp-block-dragblock-link {
+	align-items:center;
+	display:flex
+}
+.wp-block-dragblock-image {
+	height:100%;
+	-o-object-fit:cover;
+	object-fit:cover;
+	width:100%
+}
+.wp-block-dragblock-icon svg {
+	fill:currentColor;
+	width:1em
+}
+input[name="dragblock/form-title"] {
+	display:none;
+	height:0;
+	opacity:0;
+	visibility:hidden;
+	width:0
+}
+body.single .wp-block-post-content.entry-content p>iframe,body.single .wp-block-post-content.entry-content p>img {
+	max-width:100%
+}
+

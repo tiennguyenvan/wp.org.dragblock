@@ -1,0 +1,40 @@
+.dragblock-inspector-controls.content .properties {
+	margin-top:10px
+}
+.dragblock-inspector-controls.content .properties a {
+	align-items:center;
+	color:#000;
+	cursor:pointer;
+	display:flex;
+	font-size:.9em;
+	transition:transform .1s
+}
+.dragblock-inspector-controls.content .properties a:hover {
+	transform:scale(1.1)
+}
+.dragblock-inspector-controls.content .properties a.disabled {
+	opacity:.5
+}
+.dragblock-inspector-controls.content .properties a code {
+	background:none;
+	color:#960096;
+	padding:0
+}
+.dragblock-inspector-controls.content .properties a code.active {
+	font-weight:700
+}
+.dragblock-inspector-controls.content .properties a span {
+	word-wrap:break-word;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	display:inline-block;
+	display:-webkit-box;
+	line-height:1;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:normal
+}
+.dragblock-content-control-popover .components-popover__content {
+	overflow:visible!important
+}
+

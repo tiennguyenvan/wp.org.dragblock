@@ -1,0 +1,182 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",	
+	"settings": {		
+		"layout": {
+			"contentSize": "1000px",
+			"wideSize": "1200px"
+		},
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#976CEC"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#E18CC9"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#1dd1a1"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#FAFAFA"
+				},
+				{
+					"name": "Contrast",
+					"slug": "contrast",
+					"color": "#2D2D2D"
+				}
+			]
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamilies": []
+				}
+			}
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Arial, Helvetica, sans-serif",
+					"name": "Arial",
+					"slug": "arial"
+				},
+				{
+					"fontFamily": "'Arial Narrow', Arial, sans-serif",
+					"name": "Arial Narrow",
+					"slug": "arial-narrow"
+				},
+				{
+					"fontFamily": "'Arial Black', sans-serif",
+					"name": "Arial Black",
+					"slug": "arial-black"
+				},
+				{
+					"fontFamily": "'Book Antiqua', Palatino, serif",
+					"name": "Book Antiqua",
+					"slug": "book-antiqua"
+				},
+				{
+					"fontFamily": "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+					"name": "Cambria",
+					"slug": "cambria"
+				},
+				{
+					"fontFamily": "'Century Gothic', sans-serif",
+					"name": "Century Gothic",
+					"slug": "century-gothic"
+				},
+				{
+					"fontFamily": "'Courier New', Courier, monospace",
+					"name": "Courier New",
+					"slug": "courier-new"
+				},
+				{
+					"fontFamily": "cursive",
+					"name": "Cursive",
+					"slug": "cursive"
+				},
+				{
+					"fontFamily": "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif",
+					"name": "Franklin Gothic Medium",
+					"slug": "franklin-gothic-medium"
+				},
+				{
+					"fontFamily": "Georgia, 'Times New Roman', Times, serif",
+					"name": "Georgia",
+					"slug": "georgia"
+				},
+				{
+					"fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+					"name": "Gill Sans",
+					"slug": "gill-sans"
+				},
+				{
+					"fontFamily": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+					"name": "Impact",
+					"slug": "impact"
+				},
+				{
+					"fontFamily": "'Lucida Console', monaco, monospace",
+					"name": "Lucida Console",
+					"slug": "lucida-console"
+				},
+				{
+					"fontFamily": "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
+					"name": "Lucida Sans",
+					"slug": "lucida-sans"
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				},
+				{
+					"fontFamily": "Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif",
+					"name": "Tahoma",
+					"slug": "tahoma"
+				},
+				{
+					"fontFamily": "'Times New Roman', Times, 'Brush Script MT', serif",
+					"name": "Times New Roman",
+					"slug": "times-new-roman"
+				},
+				{
+					"fontFamily": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",
+					"name": "Trebuchet MS",
+					"slug": "trebuchet-ms"
+				},
+				{
+					"fontFamily": "Verdana, Geneva, Tahoma, sans-serif",
+					"name": "Verdana",
+					"slug": "verdana"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": ""
+		},
+		"color": {
+			"text": "var(--wp--preset--color--contrast)",
+			"background": "var(--wp--preset--color--base)"
+		},
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "none"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					}
+				}
+			},
+			"button": {
+				"typography": {
+					"textDecoration": "none"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--tertiary)",
+					"background": "var(--wp--preset--color--primary)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			}
+		}
+	}
+}

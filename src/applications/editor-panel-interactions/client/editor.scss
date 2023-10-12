@@ -1,0 +1,112 @@
+.dragblock-inspector-controls.interactions .properties {
+	margin-top:20px
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines {
+	cursor:pointer;
+	display:inline-block;
+	font-family:monospace;
+	letter-spacing:-.3px;
+	line-height:1.7em;
+	transition-delay:0;
+	transition-duration:100;
+	transition-property:transform
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines:hover {
+	transform:scale(1.05)
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines.disabled {
+	opacity:.5
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line {
+	background:none;
+	border-left:1px solid rgba(0,0,0,.067);
+	display:block;
+	line-height:1.2em;
+	padding-left:10px
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line span {
+	color:rgba(0,0,0,.6);
+	font-size:.9em;
+	letter-spacing:0;
+	margin-right:.2em
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line span.keyword {
+	color:#b914fd;
+	font-weight:700
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line span.connector {
+	color:#000
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line.event {
+	border-left:none;
+	padding-left:0
+}
+.dragblock-inspector-controls.interactions .properties a.code-lines code.line.event span {
+	font-size:1em
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .label {
+	color:#b914fd;
+	font-size:8px;
+	font-weight:700;
+	letter-spacing:.5px;
+	line-height:1em;
+	text-transform:uppercase
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls {
+	display:flex
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls>* {
+	margin-bottom:15px
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .dragblock-chosen-control {
+	flex-basis:100%
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control {
+	border-bottom:1px solid rgba(0,0,0,.2);
+	border-radius:4px;
+	flex-basis:100%;
+	padding:0
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field {
+	margin:0
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-select-control__input,.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-text-control__input {
+	border:none;
+	border-radius:4px;
+	box-shadow:none;
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	min-height:0;
+	outline:none;
+	padding:0 5px
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-select-control__input:focus,.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-text-control__input:focus {
+	box-shadow:0 1px 1px #000!important
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-input-control__backdrop,.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control .components-base-control__field .components-input-control__suffix {
+	display:none
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line .controls .components-base-control.fake {
+	border-bottom-color:transparent;
+	flex-basis:auto;
+	font-size:11px;
+	font-weight:700;
+	line-height:20px;
+	min-height:0
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line.condition .controls .components-base-control:nth-child(2) {
+	flex-basis:auto;
+	padding:0
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line.condition .controls .components-base-control:nth-child(2) .components-select-control__input {
+	color:#000;
+	font-weight:700;
+	padding:0;
+	text-align:center
+}
+.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line.then .controls .components-base-control:nth-child(2),.dragblock-interactions-control-popover .components-popover__content .trigger-lines .line.then .controls .components-base-control:nth-child(4) {
+	flex-basis:auto;
+	padding:0
+}
+

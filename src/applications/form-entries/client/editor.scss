@@ -1,0 +1,29 @@
+.post-type-dragblockformmsg .page-title-action {
+	display:none
+}
+.post-type-dragblockformmsg .wp-list-table .column-title {
+	width:10%
+}
+.post-type-dragblockformmsg .wp-list-table .column-content {
+	width:40%
+}
+.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-successful {
+	background-color:#3daa21
+}
+.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-failed {
+	background-color:#aa2121
+}
+.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-local {
+	background-color:#696565
+}
+.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-failed,.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-local,.post-type-dragblockformmsg .wp-list-table .dragblock-form-emailed-successful {
+	border-radius:4px;
+	color:#fff;
+	display:inline-block;
+	font-size:10px;
+	font-weight:700;
+	letter-spacing:1px;
+	margin:auto;
+	padding:0 4px
+}
+

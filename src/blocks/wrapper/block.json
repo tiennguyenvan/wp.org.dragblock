@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dragblock/wrapper",
+	"version": "0.1.0",
+	"title": "Wrapper",
+	"category": "dragblock-basic",
+	"icon": "screenoptions",
+	"description": "Insert a wrapper/container",
+	"keywords": ["wrapper", "container", "column", "row"],
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"dragBlockTagName" : {
+			"type": "string",
+			"default": "div"
+		}
+	},
+	"providesContext": {
+		"dragblockParentStyles" : "dragBlockStyles"
+	},
+	"textdomain": "dragblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"	
+}
+

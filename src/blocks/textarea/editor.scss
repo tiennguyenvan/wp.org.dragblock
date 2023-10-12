@@ -1,0 +1,23 @@
+[class*=wp-block].is-selected {
+	animation-name:none!important;
+	outline:solid var(--wp-admin-border-width-focus) var(--wp-admin-theme-color)!important
+}
+.is-outline-mode .block-editor-block-list__block:not(.remove-outline).is-selected:after,[class*=wp-block].is-selected[data-type="dragblock/form"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/link"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/select"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/wrapper"] .block-list-appender {
+	display:none!important
+}
+.wp-block-dragblock-text>span {
+	display:inherit
+}
+.edit-site-block-editor__block-list .wp-block-dragblock-text.is-selected {
+	outline:2px solid var(--wp-admin-theme-color)
+}
+textarea.wp-block-dragblock-textarea {
+	border-radius:initial;
+	box-shadow:none;
+	color:initial;
+	line-height:normal;
+	overflow:initial;
+	padding:initial;
+	resize:none
+}
+

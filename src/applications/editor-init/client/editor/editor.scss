@@ -1,0 +1,665 @@
+[class*=dragblock][class*=control] .block-editor-panel-color-gradient-settings {
+	margin:0 0 20px;
+	padding:0
+}
+[class*=dragblock][class*=control] .block-editor-tools-panel-color-gradient-settings__item.first {
+	margin-top:0
+}
+.dragblock-richtext-icon-inserter-results {
+	min-width:250px
+}
+.dragblock-dimension-control .control {
+	align-items:center;
+	-moz-column-gap:5%;
+	column-gap:5%;
+	display:flex
+}
+.dragblock-dimension-control .control .unit {
+	width:50%
+}
+.dragblock-dimension-control .control .unit .components-input-control__backdrop {
+	border-color:rgba(0,0,0,.667);
+	border-radius:4px
+}
+.dragblock-dimension-control .control .spacer {
+	width:45%
+}
+.dragblock-dimension-control input {
+	height:30px!important;
+	min-height:0!important;
+	padding-left:8px!important
+}
+.dragblock-dimension-control select.components-unit-control__select {
+	font-size:.6em!important;
+	font-weight:700;
+	height:100%!important;
+	margin-inline-end:0!important;
+	min-width:0!important;
+	padding:0!important;
+	text-transform:uppercase
+}
+.dragblock-dimension-control select.components-unit-control__select:hover {
+	background:hsla(0,0%,80%,.2)
+}
+.dragblock-overlay-toggle-control {
+	border:1px solid #000;
+	border-radius:50px;
+	color:rgba(0,0,0,.5);
+	cursor:pointer;
+	font-size:8px;
+	font-weight:700;
+	line-height:1em;
+	padding:.2em .5em;
+	text-transform:uppercase
+}
+.dragblock-overlay-toggle-control.checked {
+	background-color:var(--wp-admin-theme-color,#0693e3);
+	border-color:transparent;
+	color:#fff
+}
+.dragblock-margin-control>.action {
+	border:1px solid transparent;
+	cursor:pointer;
+	display:inline-block;
+	font-size:20px
+}
+.dragblock-margin-control>.action svg {
+	width:1em
+}
+.dragblock-margin-control>.action:hover {
+	border-color:var(--wp-admin-theme-color,#007cba)
+}
+.dragblock-margin-control>.action.active {
+	background-color:var(--wp-admin-theme-color,#007cba);
+	color:#fff
+}
+.dragblock-margin-control>.item {
+	margin-bottom:12px
+}
+.dragblock-margin-control>.item>.position {
+	display:block;
+	font-size:8px;
+	font-weight:700;
+	text-transform:uppercase
+}
+.dragblock-margin-control>.item>.control {
+	align-items:center;
+	-moz-column-gap:1em;
+	column-gap:1em;
+	display:flex;
+	justify-content:flex-start
+}
+.dragblock-margin-control>.item>.control .dragblock-dimension-control {
+	margin-bottom:0;
+	width:100%
+}
+.dragblock-margin-control>.item:last-child {
+	margin-bottom:0
+}
+.dragblock-image-control {
+	border:1px solid #ccc;
+	border-radius:4px;
+	display:flex
+}
+.dragblock-image-control>.components-base-control .components-base-control__field {
+	margin-bottom:0
+}
+.dragblock-image-control>.components-base-control .components-base-control__field input[type=text] {
+	border:none
+}
+.dragblock-image-control>.components-form-file-upload .components-button {
+	padding:0
+}
+.dragblock-image-control>.components-form-file-upload .components-button svg {
+	width:1em
+}
+.dragblock-query-object-controls .object .name .delete svg {
+	position:relative;
+	top:.3em;
+	width:1.3em
+}
+.dragblock-query-object-controls .object .name:hover .delete svg {
+	transform:scale(1.1)
+}
+.dragblock-query-object-controls .dragblock-autocomplete-search-box {
+	margin-top:10px
+}
+.dragblock-chosen-control,.dragblock-chosen-control .components-base-control {
+	position:relative
+}
+.dragblock-chosen-control .options {
+	background-color:#fff;
+	border:1px solid #f0f0f0;
+	border-radius:4px;
+	box-shadow:1px 1px 2px rgba(0,0,0,.133);
+	padding:5px;
+	position:absolute;
+	z-index:999
+}
+.dragblock-chosen-control .options a.option {
+	color:#444;
+	display:block;
+	font-size:.9em;
+	line-height:1.2em;
+	margin:5px 0
+}
+.dragblock-chosen-control .options a.option.active,.dragblock-chosen-control .options a.option:hover {
+	background-color:#f0f0f0;
+	color:#000
+}
+.dragblock-chosen-control.top .options {
+	bottom:100%
+}
+.dragblock-chosen-control.bottom .options {
+	top:100%
+}
+.dragblock-chosen-control.left .options {
+	right:100%;
+	top:0
+}
+.dragblock-chosen-control.right .options {
+	left:100%;
+	top:0
+}
+.dragblock-autocomplete-search-box button.fake-search-button {
+	background-color:#fcfcfc;
+	border:1px solid #777;
+	border-radius:4px;
+	box-shadow:1px 1px 3px rgba(0,0,0,.133)!important;
+	color:#333;
+	width:100%
+}
+.dragblock-autocomplete-search-box button.fake-search-button:hover {
+	background-color:#fff;
+	border:1px solid #555;
+	box-shadow:2px 2px 5px rgba(0,0,0,.133)!important
+}
+.dragblock-autocomplete-search-box button.fake-search-button:focus {
+	border-color:var(--wp-admin-theme-color)
+}
+.dragblock-autocomplete-search-box-popover {
+	margin-top:-45px
+}
+.dragblock-autocomplete-search-box-popover.show-trigger {
+	margin-top:auto
+}
+.dragblock-autocomplete-search-box-popover>div {
+	background:#fff;
+	border:1px solid;
+	border-color:inherit;
+	box-shadow:2px 2px 5px rgba(0,0,0,.2);
+	padding:10px;
+	width:250px;
+	z-index:99
+}
+.dragblock-autocomplete-search-box-popover .components-base-control__field,.dragblock-autocomplete-search-box-popover .components-search-control {
+	margin-bottom:0
+}
+.dragblock-autocomplete-search-box-popover .components-base-control__field input[type=search].components-search-control__input,.dragblock-autocomplete-search-box-popover .components-search-control input[type=search].components-search-control__input {
+	height:40px;
+	padding-bottom:0;
+	padding-top:0
+}
+.dragblock-autocomplete-search-box-popover .results {
+	margin-top:10px
+}
+.dragblock-autocomplete-search-box-popover .results .item a {
+	cursor:pointer
+}
+.dragblock-autocomplete-search-box-popover .results .item a.active,.dragblock-autocomplete-search-box-popover .results .item a:hover {
+	text-decoration:underline
+}
+.dragblock-autocomplete-search-box-popover .results .item a.active code,.dragblock-autocomplete-search-box-popover .results .item a:hover code {
+	background-color:rgba(0,0,0,.133)
+}
+.dragblock-autocomplete-search-box-popover .results .item a code {
+	background:none
+}
+.dragblock-property-popover .components-popover__content {
+	background:#fff;
+	border:1px solid #f4f4f4!important;
+	box-shadow:2px 2px 10px 0 rgba(0,0,0,.2);
+	box-sizing:border-box;
+	min-width:250px;
+	padding:45px 10px 10px;
+	position:relative
+}
+.dragblock-property-popover .components-popover__content .title {
+	font-weight:700;
+	margin:0 0 10px
+}
+.dragblock-property-popover .components-popover__content>.actions {
+	border-bottom:1px solid #ddd;
+	box-sizing:border-box;
+	left:0;
+	margin-bottom:15px;
+	padding:8px;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.dragblock-property-popover .components-popover__content>.actions .action {
+	cursor:pointer;
+	margin:0 0 0 5px;
+	opacity:.7
+}
+.dragblock-property-popover .components-popover__content>.actions .action.close {
+	float:right
+}
+.dragblock-property-popover .components-popover__content>.actions .action:hover {
+	opacity:1
+}
+.dragblock-property-popover .components-popover__content>.actions .action.disabled {
+	opacity:.5
+}
+.dragblock-property-popover .components-popover__content>.actions .action svg {
+	vertical-align:bottom;
+	width:1.3em
+}
+.dragblock-toolbar-popover .components-popover__content {
+	padding:10px;
+	width:auto
+}
+.dragblock-toolbar-dropdown .dragblock-toolbar-dropdown-item:focus {
+	box-shadow:none;
+	outline:none
+}
+.dragblock-toolbar-dropdown .dragblock-toolbar-dropdown-item.active {
+	outline:3px solid #007cba
+}
+.dragblock-toolbar-dropdown .dragblock-toolbar-dropdown-item .components-menu-item__item svg {
+	margin-right:10px;
+	width:1.3em
+}
+.dragblock-selectors-control .states .state-item {
+	background:#f0f0f0;
+	border:1px solid #ddd;
+	color:#666;
+	cursor:pointer;
+	display:block;
+	font-size:.9em;
+	max-width:100%;
+	text-align:center;
+	width:3em
+}
+.dragblock-selectors-control .states .state-item.active {
+	background-color:#000;
+	color:#fff
+}
+.dragblock-selectors-control .components-base-control__field {
+	margin-bottom:0
+}
+.dragblock-selectors-control .components-base-control__field input.components-text-control__input {
+	border-color:#999;
+	font-size:12px;
+	height:20px;
+	min-height:0;
+	padding:0 5px
+}
+.dragblock-height-control .components-button-group {
+	border:1px solid;
+	display:flex;
+	justify-content:stretch;
+	margin:0 0 10px;
+	padding:3px;
+	width:100%
+}
+.dragblock-height-control .components-button-group .components-button {
+	box-shadow:none!important;
+	display:block;
+	font-size:.83em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:5px;
+	text-align:center;
+	width:33.3%
+}
+.dragblock-height-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-height-control .components-layout-control .label {
+	font-size:10px;
+	font-weight:700;
+	letter-spacing:.5px;
+	margin:10px 0 0;
+	text-transform:uppercase
+}
+.dragblock-height-control .components-layout-control .items {
+	display:flex
+}
+.dragblock-height-control .components-layout-control .items .item {
+	background-color:rgba(0,124,186,.388);
+	border:1px solid #074768;
+	cursor:pointer;
+	display:inline-block;
+	flex-basis:0;
+	flex-grow:1;
+	height:25px;
+	width:100%
+}
+.dragblock-height-control .components-layout-control.is-active .items .item.is-active {
+	background-color:rgba(0,124,186,.725)
+}
+.dragblock-width-control .components-button-group {
+	border:1px solid;
+	display:flex;
+	justify-content:stretch;
+	margin:0 0 10px;
+	padding:3px;
+	width:100%
+}
+.dragblock-width-control .components-button-group .components-button {
+	box-shadow:none!important;
+	display:block;
+	font-size:.83em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:5px;
+	text-align:center;
+	width:33.3%
+}
+.dragblock-width-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-width-control .components-layout-control .label {
+	font-size:10px;
+	font-weight:700;
+	letter-spacing:.5px;
+	margin:10px 0 0;
+	text-transform:uppercase
+}
+.dragblock-width-control .components-layout-control .items {
+	display:flex
+}
+.dragblock-width-control .components-layout-control .items .item {
+	background-color:rgba(0,124,186,.388);
+	border:1px solid #074768;
+	cursor:pointer;
+	display:inline-block;
+	flex-basis:0;
+	flex-grow:1;
+	height:25px;
+	width:100%
+}
+.dragblock-width-control .components-layout-control.is-active .items .item.is-active {
+	background-color:rgba(0,124,186,.725)
+}
+.dragblock-text-align-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	width:100%
+}
+.dragblock-text-align-control .components-button-group .components-button {
+	box-shadow:none!important;
+	display:inline-block;
+	font-size:.8em;
+	font-weight:600;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:9px 0;
+	text-align:center;
+	width:20%
+}
+.dragblock-text-align-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-position-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-position-control .components-button-group .components-button {
+	box-shadow:none!important;
+	box-sizing:border-box;
+	display:inline-block;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:10px
+}
+.dragblock-position-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-position-control .components-button-group .components-select-control__input {
+	margin-bottom:20px
+}
+.dragblock-text-transform-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-text-transform-control .components-button-group .components-button {
+	box-shadow:none!important;
+	font-size:1.1em;
+	font-weight:600;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:9px;
+	width:25%
+}
+.dragblock-text-transform-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-border-style-control .components-button-group .components-button {
+	box-shadow:none!important;
+	display:inline-block;
+	font-size:.8em;
+	height:auto;
+	outline:none;
+	padding:0 8px 8px 0;
+	text-align:center;
+	width:20%
+}
+.dragblock-border-style-control .components-button-group .components-button:hover {
+	background:none;
+	color:#000
+}
+.dragblock-border-style-control .components-button-group .components-button:hover span span {
+	background-color:#f0f0f0
+}
+.dragblock-border-style-control .components-button-group .components-button.is-primary {
+	background:#fff
+}
+.dragblock-border-style-control .components-button-group .components-button.is-primary span {
+	color:#000
+}
+.dragblock-border-style-control .components-button-group .components-button.is-primary span span {
+	background-color:#000;
+	color:#fff
+}
+.dragblock-border-style-control .components-button-group .components-button>span {
+	border-width:5px;
+	box-sizing:border-box;
+	color:#000;
+	display:inline-block;
+	padding:5px 0;
+	width:100%
+}
+.dragblock-border-style-control .components-button-group .components-button>span span {
+	padding:2px 4px
+}
+.dragblock-text-decoration-style-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-text-decoration-style-control .components-button-group .components-button {
+	box-shadow:none!important;
+	box-sizing:border-box;
+	color:transparent;
+	display:inline-block;
+	font-size:1.1em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:8px 10px;
+	text-decoration-color:#000;
+	text-decoration-line:line-through;
+	width:33%
+}
+.dragblock-text-decoration-style-control .components-button-group .components-button.is-primary {
+	background:#000;
+	text-decoration-color:#fff
+}
+.dragblock-text-decoration-style-control .components-button-group .components-button:first-child {
+	color:inherit;
+	text-decoration-line:none
+}
+.dragblock-text-decoration-style-control .components-button-group .components-button.is-primary:first-child {
+	color:#fff
+}
+.dragblock-text-decoration-line-control .components-button-group {
+	border:1px solid;
+	display:flex;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-text-decoration-line-control .components-button-group .components-button {
+	box-shadow:none!important;
+	box-sizing:border-box;
+	display:flex;
+	flex-grow:1;
+	font-size:1.1em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:8px 10px
+}
+.dragblock-text-decoration-line-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-font-size-control .components-button-group {
+	border:1px solid;
+	display:flex;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-font-size-control .components-button-group .components-button {
+	box-shadow:none!important;
+	flex-grow:1;
+	font-size:.85em;
+	height:auto;
+	justify-content:center;
+	line-height:1em;
+	outline:none;
+	padding:9px
+}
+.dragblock-font-size-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-font-weight-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-font-weight-control .components-button-group .components-button {
+	box-shadow:none!important;
+	box-sizing:border-box;
+	display:inline-block;
+	font-size:1.5em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:20px 0;
+	width:33.33%
+}
+.dragblock-font-weight-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-line-height-control .components-button-group {
+	border:1px solid;
+	margin:0 0 10px;
+	padding:3px
+}
+.dragblock-line-height-control .components-button-group .components-button {
+	box-shadow:none!important;
+	box-sizing:border-box;
+	display:inline-block;
+	font-size:.9em;
+	height:auto;
+	line-height:1em;
+	outline:none;
+	padding:8px
+}
+.dragblock-line-height-control .components-button-group .components-button.is-primary {
+	background:#000
+}
+.dragblock-box-control.corner {
+	margin-bottom:16px
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container {
+	position:relative
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container .components-box-control-visualizer {
+	border:2px solid;
+	height:65%;
+	left:5%;
+	position:absolute;
+	top:10%;
+	width:90%
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container .components-number-control.top-left {
+	border-left:1px solid;
+	border-top:1px solid
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container .components-number-control.top-right {
+	border-right:1px solid;
+	border-top:1px solid
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container .components-number-control.bottom-left {
+	border-bottom:1px solid;
+	border-left:1px solid
+}
+.dragblock-box-control.corner .components-box-control-unlinked-container .components-number-control.bottom-right {
+	border-bottom:1px solid;
+	border-right:1px solid
+}
+.dragblock-box-control.corner button.components-button {
+	height:auto!important;
+	padding:0!important
+}
+.dragblock-box-control.side .components-box-control-unlinked-container {
+	position:relative
+}
+.dragblock-box-control.side .components-box-control-unlinked-container .components-box-control-visualizer {
+	border:10px solid;
+	height:85%;
+	left:25px;
+	position:absolute;
+	top:10px;
+	width:75%
+}
+.dragblock-box-control.side .components-box-control-unlinked-container .components-number-control.components-unit-control {
+	margin:10px auto;
+	max-width:100px
+}
+.dragblock-box-control.side button.components-button {
+	height:auto!important;
+	padding:0!important
+}
+.components-button,a {
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:-moz-none;
+	-o-user-select:none;
+	user-select:none
+}
+.block-editor-block-types-list__list-item [class*=dragblock] .block-editor-block-types-list__item-icon {
+	color:#ff7800
+}
+svg {
+	fill:currentColor
+}
+.dragblock-inspector-controls .components-border-box-control fieldset.components-border-control .components-flex.components-h-stack {
+	align-items:flex-start;
+	height:auto
+}
+body.post-php .block-editor-writing-flow .is-root-container.wp-block-post-content {
+	margin:auto;
+	max-width:var(--wp--style--global--content-size)
+}
+

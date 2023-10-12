@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dragblock/text",
+	"version": "0.1.0",
+	"title": "Text",
+	"category": "dragblock-basic",
+	"icon": "translation",
+	"description": "Insert a flexible and translatable text",
+	"keywords": ["text", "span text", "paragraph"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "dragblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes":  {
+		
+		"dragBlockText": {
+			"type" : "array",
+			"default": ""
+		}
+	}
+}

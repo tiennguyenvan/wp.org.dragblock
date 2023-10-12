@@ -1,0 +1,22 @@
+[class*=wp-block].is-selected {
+	animation-name:none!important;
+	outline:solid var(--wp-admin-border-width-focus) var(--wp-admin-theme-color)!important
+}
+.is-outline-mode .block-editor-block-list__block:not(.remove-outline).is-selected:after,[class*=wp-block].is-selected[data-type="dragblock/form"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/link"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/select"] .block-list-appender,[class*=wp-block].is-selected[data-type="dragblock/wrapper"] .block-list-appender {
+	display:none!important
+}
+.wp-block-dragblock-text>span {
+	display:inherit
+}
+.edit-site-block-editor__block-list .wp-block-dragblock-text.is-selected {
+	outline:2px solid var(--wp-admin-theme-color)
+}
+input.wp-block-dragblock-input[type=date],input.wp-block-dragblock-input[type=datetime-local],input.wp-block-dragblock-input[type=datetime],input.wp-block-dragblock-input[type=email],input.wp-block-dragblock-input[type=month],input.wp-block-dragblock-input[type=number],input.wp-block-dragblock-input[type=password],input.wp-block-dragblock-input[type=search],input.wp-block-dragblock-input[type=tel],input.wp-block-dragblock-input[type=text],input.wp-block-dragblock-input[type=time],input.wp-block-dragblock-input[type=url],input.wp-block-dragblock-input[type=week] {
+	border-radius:initial;
+	box-shadow:none;
+	color:initial;
+	line-height:normal;
+	min-height:auto;
+	padding:initial
+}
+

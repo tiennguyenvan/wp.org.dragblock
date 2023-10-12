@@ -1,0 +1,7 @@
+{
+	"name": "dragblock/dragblock-applications-admin",
+	"title": "DragBlock Applications for Admin (Dashboard Elements)",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
